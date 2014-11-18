@@ -1,0 +1,34 @@
+.SnapUpContent{ float:left; width:1000px; background:url(../images/snap_up_bg.jpg) left top no-repeat; margin-top:3px; position:relative;}
+.tit01{ width:440px; height:180px; color:#FFF; top:235px; left:255px; position:absolute;}
+.tit01 ul li{ margin-left:15px; list-style-type:disc; line-height:15px;}
+.clock_title{ width:339px; text-align:center; font-family:TradeGothic; font-size:24px; color:#FFF; position:absolute; top:433px; left:315px; text-transform:uppercase;}
+.clock{ width:339px; height:57px; position:absolute; top:465px; left:315px;}
+.clock_date{ width:93px; height:57px; float:left;}
+.clock_date span{ float:left; width:44px; height:57px; font-family:TradeGothic; font-size:48px; color:#000; text-align:center; line-height:57px;}
+.clock_date span.clock_date2{ margin-left:5px;}
+.clock .hour,.clock .minute{ margin-left:29px;}
+.snapUpProduct{width:1000px; height:460px; background:url(../images/snap_up_product_bg.png) left bottom no-repeat; padding-top:640px; margin-bottom:30px;}
+.snapUpProduct ul{ padding:0 62px 0 78px; width:860px;}
+.snapUpProduct ul li{ float:left; width:200px; margin-right:15px;}
+.snapUpProduct ul li img,.adcance_tomorrow ul li img{ background:#FFF;}
+.snapUpProduct ul li h3,.adcance_tomorrow ul li h3{ text-transform:none; font-size:12px; margin-top:5px;}
+.snapUpProduct ul li p,.adcance_tomorrow ul li p{ margin:5px 0; padding:0;}
+.snapUpProduct ul li .bigPrice,.adcance_tomorrow ul li .bigPrice{ text-decoration:line-through; margin-right:10px;}
+.snapUpProduct ul li .salePrice,.adcance_tomorrow ul li .salePrice{ font-size:16px; font-weight:bold;}
+.comingSoon{ font-size:18px; font-weight:bold; color:#666; line-height:30px;}
+.snapUpProduct ul li .productInfor{ height:65px;}
+.snapUpProduct ul li select{ width:90px; height:22px; margin-right:5px;}
+.snapUpProduct ul li a.snapUpBtn{ display:block; float:left; background:#c30000; color:#FFF; text-align:center; line-height:24px; padding:0 25px; margin-top:10px;}
+.snapUpProduct ul li a.snapUpBtn:hover{ text-decoration:none;}
+.adcance_tomorrow{ float:left; width:1000px;margin-bottom:20px;}
+.adcance_tomorrow ul{ width:880px; padding:0 60px; margin-top:20px; }
+.adcance_tomorrow ul li{ float:left; width:200px; margin-right:20px;}
+
+
+
+.christmas_body{ position:relative; width:1000px; margin-top:3px;}
+.christmas_heard{ width:1000px; float:left; position:relative;}
+.christmas_code{ position:absolute; top:438px; left:170px; text-transform:uppercase; font-weight:bold; font-size:14px; color:#666;}
+.christmas_save_list{ background:#d8d8d8; padding:15px 0 0 10px; width:990px; height:auto; float:left;}
+.christmas_save_list a{ float:left; margin-right:9px; margin-bottom:15px;}
+.save_new{ float:left; width:1000px; margin-top:10px;}

@@ -1,0 +1,70 @@
+#lightbox-container {top:0;left:-2000px;width:409px;font-family:Arial,Helvetica,sans-serif; text-align:center;z-index:1000001;}
+.simple {background:white;xborder:1px solid black;box-shadow:0 0 20px 0 rgba(0,0,0,0.5);left:-1000px;}
+.lightbox-close { height:22px; width:22px; background:url(../images/linghtbox_close_icons.png) left top no-repeat;position:absolute;right:-10px;top:-10px; cursor:pointer;line-height:20px;font-weight:bold ; z-index:99999;}
+#country-close{position:absolute;right:50px;top:20px; cursor:pointer;line-height:20px;font-weight:bold ; z-index:99999;}
+.simple #lightbox-middle { padding:20px; width:auto; color:#333; text-align:left;}
+
+/*Select Country*/
+#country-wrap {text-align:left;overflow:hidden; padding:0 30px 70px;}
+#country-head {position:relative;margin:0;padding:0;}
+#country-head h1 {margin-bottom:20px;font-size:3.2em; padding:10px 0 20px; font-family:"oasapTradGothic"; font-weight:bold;color:#000; border-bottom:1px solid #abadb3;}
+#country-middle{ width:700px; padding-right:200px;}
+.light-country{ float:left; width:300px; margin-top:10px; margin-bottom:30px;}
+.light-country h2{ text-transform:none; font-size:13px; font-weight:bold;}
+.light-country select{ border:1px solid #abadb3; margin-top:10px; height:24px; width:230px; color:#333;}
+.country-top{ width:100%; margin-top:60px;}
+
+
+.dialogue{ width:auto;}
+.dialogue h2{color:#fff; padding:8px 23px 6px; background:#1a1a1a; line-height:20px; font-size:20px; border:2px solid #fff; font-family:"oasapTradGothic";  margin-bottom:20px; text-align:left;}
+.dialogue-middle{padding:8px 23px 30px; text-align:left; overflow:hidden;}
+
+.showOrder-body{ display:block; margin-bottom:20px;}
+.showOrder-body-left{ float:left; width:350px;}
+.choose-information{ width:350px;}
+.choose-file {height: 26px; width:348px; border:1px solid #abadb3; margin-bottom:5px;}
+.choose-file button{ width:130px; margin-left:3px; display:inline-block;}
+.choose-file input{ width:210px; display:inline-block;}
+.photo-url{ width:342px; border:1px solid #abadb3; height:20px; padding:3px; margin-top:15px; }
+.choose-information span{ color:#999;}
+.choose-information p{ margin-top:15px;}
+.showOrder-descroption{ width:340px; padding:4px; height:70px; border:1px solid #abadb3; margin-top:5px;}
+.choose-information #submit{ float:right; margin-top:15px;}
+.showOrder-body-right{ float:right; width:250px; padding:15px; background:#E4E4E4;}
+.showOrder-body-right ul{ margin-bottom:15px;}
+.showOrder-body-right ul li{ margin:2px 0 2px 20px; list-style-type:decimal;}
+
+.writeReview ul li{ width:100%; display:inline-block;margin:4px 0;}
+.writeReview ul li label{ float:left; font-weight:bold;}
+.writeReview ul li span{ float:left; margin-left:15px;}
+.write-review{ margin-bottom:20px; width:90%; margin-right:10%;}
+.write-review span a{ display:block; width:12px; height:11px; background:url(../images/ratingStars_star.gif) left top no-repeat; margin-top:2px; display:inline-block; margin-right:5px;}
+.write-review span a:hover,.write-review span a.selected{background:url(../images/ratingStars_star.gif) left -13px no-repeat;}
+.write-review textarea{ width:98%; border:1px solid #abadb3; padding:1%; margin-top:5px; height:60px;}
+.write-review .submit{ text-align:right; margin-top:10px;}
+
+
+
+/*login*/
+.loginColumn{width:310px; border-right:2px solid #abadb3; padding-right:30px; padding-top:5px; margin:6px 30px 35px 25px; text-align:left;}
+.register{width:310px; border:none; padding:5px 0 0; margin:6px 20px 30px 0;}
+.loginColumn h3{ text-transform:none; color:#242424; display:block;font-weight:bold; padding-bottom:10px; font-size:16px;}
+.loginColumn h4{ text-transform:none; color:#242424; display:block;font-weight:bold; padding-bottom:10px; font-size:12px; padding-top:10px; margin-top:5px;}
+.loginColumn .login { width:310px; margin:5px 0 15px;}
+.loginColumn .login .label { float:left; width:120px; margin-right:10px; text-align:right; color:#333;}
+.loginColumn .field input{ float:left; width:172px; border:1px solid #abadb3; padding:3px; color:#333;}
+.loginColumn .actions{ display:block; text-align:right; margin:6px 0; padding-top:5px;}
+.loginColumn .actions .btn{ display:inline-block; text-align:center; border-radius:3px; font-size:12px; background:#999; color:#fff; padding:10px 20px; letter-spacing:1px; text-transform:uppercase; cursor:pointer; margin-right:10px; -webkit-transition: all .3s ease-out 0s; transition: all .3s ease-out 0s;}
+.loginColumn .actions .btn:hover{background:#333; text-decoration:none;}
+.loginColumn .actions p{ margin-top:10px;}
+.loginColumn .actions p a{ color:#333; text-decoration:underline;}
+.loginColumn .actions p a:hover{ text-decoration:none;}
+.social_connections{ display:block; margin:20px 0 0; padding-top:15px; border-top:1px dotted #abadb3; text-align:right;}
+.social_connections .connect { text-align:right; padding:0 0 10px;width:100%;}
+.social_connections .connect button {position: relative; display: inline-block; min-height: 16px; text-decoration: none; text-align: center; text-transform: uppercase; font-size: 12px; line-height: 1.2em; padding: 9px 22px 7px; letter-spacing: 1px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -o-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box; color: white; border: 0; -webkit-border-radius: 3px; -moz-border-radius: 3px; -o-border-radius: 3px; -ms-border-radius: 3px; border-radius: 3px; cursor: pointer; font-weight:bold;}
+.social_connections .connect button.facebook {text-align: left;background:url(../images/facebook.png) #3D5C98 8px center no-repeat;padding-left:42px; -webkit-transition: opacity 100ms; -moz-transition: opacity 100ms; -ms-transition: opacity 100ms; -o-transition: opacity 100ms; transition: opacity 100ms; }
+.social_connections .connect button.paypal {text-align: left;background:url(../images/paypal.png) #007ac6 8px center no-repeat;padding-left:42px; -webkit-transition: opacity 100ms; -moz-transition: opacity 100ms; -ms-transition: opacity 100ms; -o-transition: opacity 100ms; transition: opacity 100ms; }
+.justified { clear:both; overflow:hidden;}
+.justified label{ width:310px; display:block; color:#333;}
+.justified .checkbox{ float:left; width:14px; height:14px; margin-right:6px;}
+.justified p{ float:left; width:290px;}

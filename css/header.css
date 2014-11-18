@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'oasapTradGothic';
+    src: url('/themes/oasap2013/font/gothic_1-webfont.eot');
+    src: url('/themes/oasap2013/font/gothic_1-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/themes/oasap2013/font/gothic_1-webfont.woff') format('woff'),
+         url('/themes/oasap2013/font/gothic_1-webfont.ttf') format('truetype'),
+         url('/themes/oasap2013/font/gothic_1-webfont.svg#tradegothicboldcondtwenty') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Knockout';
+    src: url('/themes/oasap2014/font/Knockout.eot');
+    src: url('/themes/oasap2014/font/Knockout.eot?#iefix') format('embedded-opentype'),
+         url('/themes/oasap2014/font/Knockout.woff') format('woff'),
+         url('/themes/oasap2014/font/Knockout.ttf') format('truetype'),
+         url('/themes/oasap2014/font/Knockout.svg#tradegothicboldcondtwenty') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+#OasapHeader{ width:100%; height:auto;position:relative; background:#fff; color:#5e5e5e; top:0; left:0; right:0; overflow:visible; z-index:500; -webkit-box-shadow:0 3px 2px rgba(0,0,0,.15); -moz-box-shadow:0 3px 2px rgba(0,0,0,.15);
+box-shadow: 0 3px 2px rgba(0,0,0,.15);}
+.utility_bar{ position:fixed; left:0; top:0; right:0; z-index:502; width:100%;height:30px; background:#242424;}
+#headerbox{ width:100%; height:30px;}
+.utility_bar a{color:#BEBEBE}
+.utility_bar a:hover{color:#fff;}
+.page_section{ width:1000px; margin:0 auto; line-height:30px;}
+.language{ float:left; height:26px; padding:2px 0; line-height:26px;}
+.language a{ float:left; color:#bebebe;padding:0 10px; font-weight:bold;}
+.language a:hover{ color:#fff; text-decoration:none;}
+.language a#selected{ color:#fff;}
+
+
+#HeadTop{ float:right; text-align:right;}
+#HeadTop .menu_items{ float:left; position:relative; margin-left:20px;height:40px;z-index:9999}
+#HeadTop .menu_items .top_nav{display:block; font-weight:bold; color:#bebebe;}
+#HeadTop .menu_items .top_nav:hover{ color:#fff;  text-decoration:none; cursor:pointer;}
+#HeadTop .menu_items .top_nav img{ margin:0 3px 0 0;}
+li#header_customer:hover .account_down{display:block;}
+li#header_currency:hover .currency_down{display:block}
+li#header_shoppingbag:hover #down_top_shop_bag{display:block}
+
+.downNav{ padding-right:15px; background:url(../images/down_arrow.png) right 13px no-repeat;}
+.downNav:hover{ background:url(../images/down_arrow_hover.png) right 13px no-repeat;}
+.down_select{position:absolute;	right:-15px; top:39px; width:auto; margin:0;padding:8px 10px;clear:none;text-align:left;z-index:9999;background:#fff;border:1px solid #abadb3; border-radius: 3px; -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.13);
+-moz-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.13);box-shadow: 0 2px 4px 0 rgba(0,0,0,0.13);}
+.account_down{display:none;width:170px;}
+.first_of_type li a,.last_of_type li a{line-height:24px; display:block; font-weight:lighter; padding:0 10px;color:#000000}
+.first_of_type li a:hover,.last_of_type li a:hover{ background:#333; color:#fff; text-decoration:none;}
+.last_of_type{ border-top:1px solid #ccc; margin-top:5px; padding-top:5px; }
+.sellect_currency span{ float:left;}
+
+.sellect_currency span.flag{ margin:9px 2px 0 5px;}
+.currency_down{display:none;}
+.sellect_cur li{ height:24px; margin:0; padding:0;}
+.sellect_cur li a{line-height:24px; padding:0 10px; display:inline-block; width:130px;color:#000000;}
+.sellect_cur li a:hover{ background:#333; color:#fff;}
+.sellect_cur li a span{ float:left;}
+.flag_icon{ margin-right:5px; margin-top:6px;}
+.live_chat{color:#b70000; font-weight:bold;}
+
+
+/*.top_shop_bag{ padding-right:45px; position:relative;}
+.top_shop_bag .bag_img{ position:absolute; right:0; top:-10px;}*/
+
+#down_top_shop_bag{display:none;position:absolute; right:0; top:39px;height:auto;margin:0;z-index:9999; }
+.top_bag_body{ margin-top:30px; width:300px; border:1px solid #abadb3; border-radius: 3px; margin:0; background:#fff; position:relative; text-align:center; line-height:16px; -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.13);
+-moz-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.13); box-shadow: 0 2px 4px 0 rgba(0,0,0,0.13);}
+.top_bag_empty{padding:20px; text-align:left;}
+.top_bag_empty span{ display:block; margin-top:5px;}
+.header_shoppingbag_total{float:left;margin:10px 0;}
+.hsb_total_title{float:left;width:160px;}
+.hsb_total_price{float:left;width:100px;text-align:right;}
+.hsb_freeshipping_left{float:left;margin:0px 15px 0px 15px;padding:5px;border:1px solid #5E5E5E;color:#000;}
+.hsb_action_left{float:left;width:120px;margin-right:20px;}
+.hsb_action_right{float:left;width:120px;}
+.bag_items{ width:270px; padding:10px 15px; float:left;overflow-y:auto;max-height:250px;}
+.items_list{ width:260px; padding:8px 0; text-align:left; float:left; border-bottom:1px dotted #abadb3; }
+.item_img{ float:left; width:60px;}
+.bag_item_info{ float:left; margin-left:10px; width:190px;}
+.bag_item_info a{ color:#333;}
+.bag_item_info a:hover{ color:#333;}
+.bag_item_info .bagRemove{ color:#5e5e5e; text-decoration:underline;float:right;}
+.bag_item_info .bagRemove:hover{ color:#5e5e5e;}
+.top_bag_btn{float:left;width:260px; padding:15px 15px; text-align:center;}
+.top_bag_btn a{margin:0 auto; border-radius: 3px; display:block;}
+.top_bag_btn a#view_bag{ display:block; background-position:0 0; background:#000; color:#FFF;  font-size:13px; line-height:30px;}
+.top_bag_btn a#view_bag:hover{ background:#333; color:#fff;}
+.top_navdownNav{color:#BEBEBE}
+
+
+
+.header{ width:1000px; margin:0 auto; position:relative; height:95px;}
+#logo{ width:95px; height:95px; position:absolute; left:-50px; top:0px;}
+#head_nav{ width:885px; height:46px; position:absolute; left:115px; bottom:0px;}
+
+
+#head_nav .nav li .name{ float:left; position:relative;}
+#head_nav .nav li .name a{ display:block; margin-right:25px; font-size:18px; font-family:"oasapTradGothic"; text-transform:uppercase;  line-height:46px;}
+#head_nav .nav li .name a:hover{ color:#cc0000; text-decoration:none;}
+#head_nav .down_nav{display:none; position:absolute; top:46px; z-index:1111; width:auto; margin:0; clear:none; padding:10px 20px 10px;  border-top:none; background:#fff; border-radius:0 0 3px 3px; -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.13);
+ box-shadow: 0 2px 4px 0 rgba(0,0,0,0.13);}
+#head_nav .down_nav ul li{ padding:0; margin:0; border:none; color:#000; margin-bottom:5px;}
+#head_nav .down_nav ul li a{ display:block;}
+#head_nav .nav li:hover .name a{ color:#cc0000; text-decoration:none;}
+#HeadTop .menu_items .top_nav:hover{ color:#fff;  text-decoration:none; cursor:pointer;}
+
+.nav li.nav_title{position:relative;float:left;height:52px;}
+.SaleInfo{ position:absolute; left:115px; top:26px; font-weight:bold;}
+.SaleInfo a{ text-decoration:underline;}
+#arrival_nav:hover #arrival_list{display:block;}
+#best_nav:hover #best_list{display:block;}
+#apparel_nav:hover #apparel_list{display:block;}
+#best_nav:hover #best_list{display:block;}
+#shoes_nav:hover #shoes_list{display:block;}
+#bags_nav:hover #bags_list{display:block;}
+#access_nav:hover #access_list{display:block;}
+#fashion_nav:hover #fashion_list{display:block;}
+#jewellery_nav:hover #jewellery_list{display:block;}
+#features_nav:hover #features_list{display:block;}
+#beauty_nav:hover #beauty_list{display:block;}
+
+#searh_farm {position: absolute;right: 0;top: 12px;border-bottom: 2px solid #5e5e5e;width: 330px;}
+#searh_farm .search {width: 295px;height: 25px;line-height: 25px;border: 0;padding: 0;margin-top: 2px;font-family: "oasapTradGothic";font-size: 18px;float: left;}
+#searchBtn{ width:28px; height:28px; background:url(../images/search_icon.png) left top no-repeat; float:left; cursor:pointer; margin-left:5px;}
+.search_related {display:none;width:290px;min-height:50px;border:1px solid #c8c8c8;border-top:1px solid #000;position:absolute;top:29px;left:0px;z-index:9999;background:white;padding-left:6px;}
+.search_related div{height:25px;width:278px;overflow:hidden;color:#999;line-height:25px;text-align:left;cursor:pointer;}
+.search_related div:hover {background:#f0f0f0;}
+.rs_alert{ width:100%; background:#242424; border-bottom:1px solid #333;}
+.rs_alert_container{ width:1000px; margin:0 auto; padding:15px 0; position:relative; color:#fff;}
+.rs_alert_close_container{ padding:0 120px 0 0;}
+.rs_alert_close_container a{ color:#fff; text-decoration:underline; font-weight:bold;}
+.rs_alert_close{ position:absolute; right:0; top:20px;}
+.rs_alert_close a{color:#bebebe; font-weight:bold;}
+.rs_alert_close a:hover{ color:#fff;}
+
+.insertedHeader{ margin-bottom:-20px; width:100%; text-align:center; border-bottom:1px solid #dedede; padding-bottom:10px; margin-top:35px;}
+.insertedHeader a{ display:inline-block; width:330px; text-transform:uppercase; }
+.insertedHeader a.middle{ border-left:1px solid #dedede; border-right:1px solid #dedede;}
+.insertedHeader a h3{font-family:"oasapTradGothic"; font-size:18px;  line-height:22px;}
+.insertedHeader a span{ font-weight:bold; line-height:20px;}
+.insertedHeader a:hover{ text-decoration:none;}
+
+.currency{font-family: Utsaah;z-index:9999;position:absolute;right:-190px; top:39px;  width:480px;background:#fff; margin:0; border:1px solid #CCC;text-align:left;}
+.cur_box_1{ font-family: Utsaah;background:#CCC; color:#787878; font-size:20px; float:left; text-align:left; width:100%;}
+.cur_box_2{  margin-left:15px;}
+.cur_box_3{ font-family: Utsaah;background:#CCC; color:#787878; font-size:20px; float:left; text-align:left; width:100%;}
+.cur_box_4{ float:left; width:100%;line-height: 23px;}
+.currency ul { list-style:none;margin:0;padding:0; float:left; width:150px;}
+.cur_box_2:hover{ background:#666; color:#FFF;}
+.currency a{text-decoration:none; color: inherit;font-size:17px;font-family: Utsaah;}
+.cur_box_top:hover{ background:#666; color:#FFF;}
+.cur_box_top{  margin-left:15px; float:left;padding-top: 6px;line-height:20px;}
+.cur_box_5{ font-family: Utsaah;background:#CCC; color:#787878; font-size:20px; float:left; text-align:left; width:100%;}
+.currency img{ border:1px solid #d6d6d6;}
+.currency span{ padding-top:4px;}
+.cur_box_1 img{ border:0; float:right; margin-right:187px; margin-top:-9px;}

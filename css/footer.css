@@ -1,0 +1,49 @@
+#OasapFooter{ position:relative; width:100%;}
+.footer_header{ width:100%; background:#1a1a1a; height:40px; padding:18px 0;}
+.footer_social{ width:1000px; margin:0 auto; color:#454545;}
+.SignUpEmail{ float:left;}
+.SignUpEmail a{ font-size:22px; display:block; padding-left:47px; line-height:48px; color:#999;font-family:"oasapTradGothic"; background:url(../images/email_icon.png) 5px 10px no-repeat; }
+.SignUpEmail a:hover{ text-decoration:none; color:#fff; background:url(../images/email_hover_icon.png) 5px 10px no-repeat;}
+.socialWrapper{ float:right; width:500px; text-align:right; height:28px; line-height:42px; margin-right:5px;}
+.socialWrapper a{ display:inline-block; margin-top:10px; height:28px; background:url(../images/social_icon1.png) no-repeat; margin-left:10px;}
+.socialWrapper a#facebook{ background-position:0 0; width:28px;}.socialWrapper a#facebook:hover{ background-position:0 -28px;}
+.socialWrapper a#twitter{ background-position:-28px 0; width:28px;}.socialWrapper a#twitter:hover{ background-position:-28px -28px;}
+#facebook_right{background:url(../images/facebook_so.png) no-repeat; background-position:0 0;}
+#twitter_right{background:url(../images/twitter_so.png) no-repeat; background-position:0 0; }
+.socialWrapper a#pinterest{ background-position:-56px 0; width:28px;}.socialWrapper a#pinterest:hover{ background-position:-56px -28px;}
+.socialWrapper a#youtube{ background-position:-84px 0; width:28px;}.socialWrapper a#youtube:hover{ background-position:-84px -28px;}
+.socialWrapper a#instagram{ background-position:-112px 0; width:28px;}.socialWrapper a#instagram:hover{ background-position:-112px -28px;}
+.socialWrapper a#tumblr{ background-position:-140px 0; width:28px;}.socialWrapper a#tumblr:hover{ background-position:-140px -28px;}
+.socialWrapper a#google_plus{ background-position:-168px 0; width:28px;}.socialWrapper a#google_plus:hover{ background-position:-168px -28px;}
+.socialWrapper a#appstore{ background-position:-196px 0; width:28px;}.socialWrapper a#appstore:hover{ background-position:-196px -28px;}
+
+.footer-main{ width:100%; background:#1a1a1a; overflow:hidden; padding:15px 0 0;  color:#b3b3b3; border-top:1px solid #333;}
+.footerCenterList{ width:990px; margin:0 auto; overflow:hidden;}
+.unstyled{ width:190px;text-align:left; float:left; padding:15px 0 10px;}
+#OasapFooter h3{ font-size:16px; font-family:"oasapTradGothic"; margin-bottom:6px; text-align:left;  color:#999;}
+.unstyled ul{width:170px;}
+.unstyled ul li{width:170px; margin-bottom:3px; line-height:18px;}
+.unstyled ul li a{ color:#999999;}
+.OasapDonation{ float:left; width:220px; padding:18px 0 0 200px; background:url(../images/donation_bg.png) left 15px no-repeat; height:170px; line-height:16px; color:#999;}
+.footer_bottom{width:100%;  line-height:18px; text-align:left; background:#1a1a1a;  color:#999999;}
+.footBottom{ width:1000px; margin:0 auto; position:relative;  border-top:1px solid #333; padding:25px 0 20px;}
+.trustwave{ position:absolute; right:0; top:24px; cursor:pointer;}
+.copyright{ width:1000px; margin:0 auto; margin-top:15px;}
+.copyright a{ margin-left:5px; color:#555555; }
+
+
+.layerNL{ width:100%; height:250px; background:#fff; position:fixed; left:0; bottom:0;  color:#333; z-index:9999; border-top:5px solid #999;}
+.layerNL section{ padding:20px 0 20px 0;}
+.gridContainer{ width:990px; margin:0 auto; position:relative;}
+.NLclose{ position:absolute; display:block; width:20px; height:20px; background:url(../images/newletter-close-icon.png) left top no-repeat; right:0; top:-5px;}
+.NLbannerImg{width:240px; float:left; margin-right:20px; display:inline;}
+.omega {width:700px; float:left; display:inline;}
+.omega h2{font-size:32px; font-family:"oasapTradGothic";}
+.fieldRow{ padding:15px 0; position:relative; min-height:25px; height:auto !important; height:25px; width:450px; float:left;}
+.validationError{ float:left; color: #b43535; font-size: 1em; font-family: Arial,Verdana,sans-serif; padding:10px 0 0; }
+.fieldRow .border{ padding:5px; border:1px solid #ccc; background:#fff;  }
+.fieldRow input.email {width:100%; font-weight:normal; border:0; font-family:"oasapTradGothic"; font-size:20px; color:#666; height:25px; line-height:30px; background-color:#fff; outline:none; -webkit-border-radius:none;}
+.submitBtn{ float:left; height:25px; padding:15px 0; }
+.submitBtn #signupBtn{ display:block; height:37px; background:#000; padding:0 20px; font-family:"oasapTradGothic"; font-size:20px; line-height:25px; text-transform:uppercase; color:#fff; cursor:pointer; }
+.submitBtn #signupBtn:hover{ background:#333;}
+.disclaimer a{ text-decoration:underline;}
